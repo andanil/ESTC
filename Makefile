@@ -18,9 +18,9 @@ common:
 	make -C $(COMMON_PATH)
 
 lab: spl common
-	make -C $(LABS_DIR)/player
+	make -C $(LABS_DIR)/wav-player
 
 clean:
 	make -C $(SPL_PATH) clean
 	make -C $(COMMON_PATH) clean
-	make -C $(LABS_DIR)/player clean
+	make -C $(LABS_DIR)/wav-player clean
